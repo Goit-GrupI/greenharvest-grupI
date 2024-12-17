@@ -7,3 +7,18 @@
 @import url("./reviews.css");
 @import url("./your_order.css");
 @import url("./footer.css");
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    /* Add your mobile-specific styles here */
+}
+
+/* Tablet styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Add your tablet-specific styles here */
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+    /* Add your desktop-specific styles here */
+}
