@@ -15,7 +15,18 @@
   justify-content: space-between;
   gap: 121px;
 }
-
+.footer-a {
+  display: flex;
+  gap: 9px;
+}
+.foooter-nav-a {
+  font-weight: 600px;
+}
+.footer-nav-ul {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 600px;
+}
 .footer-library
   .footer-container
   .footer-page-info
@@ -40,8 +51,7 @@
   flex-direction: column;
   gap: 24px;
 }
-.footer-a {
-}
+
 .footer-library
   .footer-container
   .footer-page-info
