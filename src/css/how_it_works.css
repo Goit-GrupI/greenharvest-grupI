@@ -75,6 +75,10 @@
 }
 .how_it_works .container .content .works-list .works-item p {
   color: #858585;
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
 }
 .how_it_works .container .content .works-list .works-item p b {
   font-weight: 700;
@@ -99,7 +103,6 @@
     gap: 40px;
   }
   .how_it_works .container .media img {
-    width: 335px;
     height: 100%;
   }
 
@@ -121,9 +124,16 @@
     width: 100%;
   }
   .how_it_works .container .media img {
-    width: 640px;
-    height: 640px;
+    width: 100%;
     object-fit: cover;
+  }
+
+  .how_it_works .container .content {
+    padding: 100px 164px;
+    gap: 52px;
+  }
+  .how_it_works .container .content .works-list {
+    gap: 24px;
   }
 }
 
@@ -149,12 +159,5 @@
 
   .how_it_works .container .content .works-list {
     gap: 24px;
-  }
-
-  .how_it_works .container .content .works-list .works-item p {
-    font-family: Inter Tight;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
   }
 }
