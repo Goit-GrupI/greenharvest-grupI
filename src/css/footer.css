@@ -86,7 +86,10 @@
 
 /* Mobile styles */
 @media (max-width: 767px) {
+<<<<<<< HEAD
  
+=======
+>>>>>>> main
   .footer-library .footer-container {
     display: flex;
     flex-direction: column;
@@ -114,6 +117,7 @@
   .footer-nav-ul {
     font-size: 20px;
     line-height: 24px;
+<<<<<<< HEAD
    
   }
   .adres-footer{
@@ -121,6 +125,13 @@
     
   }
   .adres-footer{
+=======
+  }
+  .adres-footer {
+    font-style: normal;
+  }
+  .adres-footer {
+>>>>>>> main
     gap: 14px;
   }
   .footer-library
@@ -163,7 +174,10 @@
     .foooter-nav-a {
     font-size: 20px;
     line-height: 24px;
+<<<<<<< HEAD
    
+=======
+>>>>>>> main
   }
   .footer-library .footer-container .footer-page-info .adres-footer {
     display: flex;
@@ -186,14 +200,21 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+<<<<<<< HEAD
    
 
   /* Add your mobile-specific styles here */
+=======
+
+    /* Add your mobile-specific styles here */
+  }
+>>>>>>> main
 }
 
 /* Tablet styles */
 @media (min-width: 768px) and (max-width: 1023px) {
   /* Add your tablet-specific styles here */
+<<<<<<< HEAD
   .footer-library .footer-container { 
 gap: 212px;
 
@@ -204,6 +225,13 @@ padding: 32px;
 
 
 
+=======
+  .footer-library .footer-container {
+    gap: 212px;
+
+    padding: 32px;
+  }
+>>>>>>> main
 }
 
 /* Desktop styles */
