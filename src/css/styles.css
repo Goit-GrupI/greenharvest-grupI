@@ -9,12 +9,10 @@
 @import url("./footer.css");
 
 /* Mobile styles */
-@media (max-width: 767px) {
-  /* Add your mobile-specific styles here */
-  .container {
-    width: 375px;
-    margin: 0 auto;
-  }
+
+.container {
+  width: 375px;
+  margin: 0 auto;
 }
 
 /* Tablet styles */

@@ -1,7 +1,40 @@
 /* Mobile styles */
-@media (max-width: 767px) {
-  /* Add your mobile-specific styles here */
+
+.header > .container {
+  position: relative;
+  display: flex;
 }
+
+.header-bar {
+  position: absolute;
+  top: 20px;
+  margin: 0 20px 0 20px;
+  width: 335px;
+  height: 32px;
+
+  /* Geçici */
+  background-color: blueviolet;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-bar-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  margin: 8px 0;
+}
+
+.header-bar-right {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  margin: auto 0; 
+}
+
+
+
 
 /* Tablet styles */
 @media (min-width: 768px) and (max-width: 1023px) {

@@ -1,7 +1,8 @@
- 
 /* Mobile styles */
-@media (max-width: 767px) {
-  /* Add your mobile-specific styles here */
+.hero {
+  /* Geçici bir yükseklik */ 
+
+  height: 800px; 
 }
 
 /* Tablet styles */
