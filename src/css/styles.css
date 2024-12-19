@@ -26,6 +26,8 @@
 /* Mobile styles */
 
 .container {
+  position: relative;
+  display: flex;
   width: 375px;
   margin: 0 auto;
 }
