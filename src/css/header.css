@@ -112,6 +112,13 @@
   text-align: center;
   color: var(--white);
 }
+
+.menu-item:hover,
+.menu-item:focus {
+  color: #7a3145;
+  background-color: white;
+}
+
 .menu-shop-link {
   color: white;
   background-color: var(--chianti);
