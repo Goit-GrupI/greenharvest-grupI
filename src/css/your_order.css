@@ -1,15 +1,81 @@
- 
+/* Your Orders */
+
+.your_order .container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  background-color: #576f35;
+}
+
+.your_order .container .section-four-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: #fbfbfb;
+}
+.your_order .container .section-four-text-box .section-four-p {
+  color: #fbfbfb;
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.your_order
+  .container
+  .section-four-text-box
+  .section-four-text
+  .section-text-your {
+  color: #d4bfc4;
+}
+
 /* Mobile styles */
 @media (max-width: 767px) {
   /* Add your mobile-specific styles here */
+  .your_order .container {
+    padding: 80px 20px;
+    gap: 40px;
+  }
+  .your_order .container .section-four-text-box {
+    gap: 20px;
+  }
+  .your_order .container .section-four-text-box .section-four-p {
+    font-size: 14px;
+  }
 }
 
 /* Tablet styles */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1279px) {
   /* Add your tablet-specific styles here */
+  .your_order .container {
+    padding-block: 100px;
+    gap: 52px;
+  }
+  .your_order .container .section-four-text-box {
+    margin-right: 329px;
+  }
 }
 
 /* Desktop styles */
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* Add your desktop-specific styles here */
+  .your_order .container {
+    padding: 100px;
+    gap: 52px;
+  }
+  .your_order .container .section-four-text-box {
+    margin-right: 329px;
+  }
+  .your_order .container .section-four-text-box .section-four-text {
+    font-family: Inter Tight;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -0.015em;
+  }
+
+  .your_order .container .your_content {
+    display: flex;
+    gap: 32px;
+  }
 }
