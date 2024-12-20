@@ -1,76 +1,83 @@
-/* Mobile styles */
+/* Mobile styles /
 @media (max-width: 767px) {
-  /* Add your mobile-specific styles here */
+  / Add your mobile-specific styles here /
+  .discount-container {
+    padding: 80px 20px;
+  }
+  .discount-container .discount-container-text .discount-up-to {
+    background-color: #576f35;
+    padding-right: 16px;
+    width: 100%;
+    height: 102px;
+  }
+  .discount-container .discount-container-text {
+    font-family: Inter Tight;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -0.015em;
+  }
 }
 
-/* Tablet styles */
-@media (min-width: 768px) and (max-width: 1023px) {
-  /* Add your tablet-specific styles here */
+/ Tablet styles /
+@media (min-width: 768px) and (max-width: 1279px) {
+  / Add your tablet-specific styles here /
+  .discount-container {
+    padding: 100px 32px;
+  }
+  .discount-container .discount-container-text .discount-up-to {
+    margin-top: -16px;
+    padding-top: 16px;
+    padding-right: 16px;
+  }
+  .discount-container .discount-container-text {
+    font-family: Inter Tight;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -0.015em;
+  }
 }
 
-/* Desktop styles */
-@media (min-width: 1024px) {
-  /* Add your desktop-specific styles here */
-}
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+/ Desktop styles /
+@media (min-width: 1280px) {
+  / Add your desktop-specific styles here /
+  .discount-container {
+    padding: 100px;
+  }
 
+  .discount-container .discount-container-text .discount-up-to {
+    margin-left: -16px;
+    padding-left: 16px;
+  }
+
+  .discount-container .discount-container-text {
+    font-family: Inter Tight;
+    font-size: 76px;
+    font-weight: 600;
+    line-height: 76px;
+    letter-spacing: -0.015em;
+    padding-inline: 16px;
+  }
 }
 
-.container {
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
-}
-
-/* Discount bölümü */
+/ Discount bölümü */
 .discount {
   background-color: white;
-
-  padding: 50px 20px;
-
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
-  text-align: center;
 }
 
 .discount-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* Ortala */
-  gap: 10px;
-  /* İçerikler arasındaki boşluk */
+  width: 100%;
 }
 
-.discount-container-text {
-  font-size: 24px;
-  /* Yazı boyutu */
-  color: #141414;
-
-  /* Yazı rengi */
-  margin: 0;
-}
-
-.discount-up-to {
-  background-color: #576F35;
-  color: white;
-
-  display: inline-block;
-  padding: 1px 1px;
-  border-radius: 12px;
-  font-size: 24px;
-  font-weight: bold;
+.discount-container .discount-container-text {
   text-transform: uppercase;
-  margin-top: -4px;
-  width: 808px;
-  height: 84px;
-  text-align: center;
-  line-height: 84px;
+}
+
+.discount-container .discount-container-text .discount-up-to {
+  background-color: #576f35;
+  color: white;
+  border-radius: 12px;
 }
 
 .visually-hidden {
