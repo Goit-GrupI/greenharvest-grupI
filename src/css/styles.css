@@ -1,0 +1,36 @@
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./hero.css");
+@import url("./how_it_works.css");
+@import url("./discount.css");
+@import url("./vegetables.css");
+@import url("./reviews.css");
+@import url("./your_order.css");
+@import url("./footer.css");
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  /* Add your mobile-specific styles here */
+  .container {
+    width: 375px;
+    margin: 0 auto;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1279px) {
+  /* Add your tablet-specific styles here */
+  .container {
+    width: 768px;
+    margin: 0 auto;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1280px) {
+  /* Add your desktop-specific styles here */
+  .container {
+    width: 1280px;
+    margin: 0 auto;
+  }
+}

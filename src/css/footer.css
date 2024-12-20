@@ -1,0 +1,241 @@
+.footer-library {
+  background-color: #7a3145;
+  height: 392px;
+  color: white;
+}
+.footer-library .footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 52px 100px;
+}
+.footer-library .footer-container .footer-page-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 121px;
+}
+.footer-a {
+  display: flex;
+  gap: 9px;
+}
+
+.foooter-nav-a {
+  font-weight: 600px;
+}
+.footer-nav-ul {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 600px;
+}
+.footer-library
+  .footer-container
+  .footer-page-info
+  .footer-text
+  .footer-text-p {
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 24px;
+}
+
+.footer-library .footer-container .footer-page-info .footer-text .footer-a {
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.footer-library .footer-container .footer-page-info .footer-nav .footer-nav-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-library
+  .footer-container
+  .footer-page-info
+  .footer-nav
+  .footer-nav-ul
+  .footer-nav-li
+  .foooter-nav-a {
+  font-family: Inter Tight;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+}
+.footer-library .footer-container .footer-page-info .adres-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+.footer-library .footer-container .footer-page-info .adres-footer .adres-link {
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.footer-library .footer-container .footer-privacy-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+<<<<<<< HEAD
+ 
+=======
+>>>>>>> main
+  .footer-library .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    padding: 16px;
+  }
+  .footer-library .footer-container .footer-page-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .footer-a {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .foooter-nav-a {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+  }
+  .footer-nav-ul {
+    font-size: 20px;
+    line-height: 24px;
+<<<<<<< HEAD
+   
+  }
+  .adres-footer{
+    font-style: normal;
+    
+  }
+  .adres-footer{
+=======
+  }
+  .adres-footer {
+    font-style: normal;
+  }
+  .adres-footer {
+>>>>>>> main
+    gap: 14px;
+  }
+  .footer-library
+    .footer-container
+    .footer-page-info
+    .footer-text
+    .footer-text-p {
+    font-family: Inter Tight;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 16px;
+  }
+
+  .footer-library .footer-container .footer-page-info .footer-text .footer-a {
+    font-family: Inter Tight;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+  }
+
+  .footer-library
+    .footer-container
+    .footer-page-info
+    .footer-nav
+    .footer-nav-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .footer-library
+    .footer-container
+    .footer-page-info
+    .footer-nav
+    .footer-nav-ul
+    .footer-nav-li
+    .foooter-nav-a {
+    font-size: 20px;
+    line-height: 24px;
+<<<<<<< HEAD
+   
+=======
+>>>>>>> main
+  }
+  .footer-library .footer-container .footer-page-info .adres-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  }
+  .footer-library
+    .footer-container
+    .footer-page-info
+    .adres-footer
+    .adres-link {
+    font-family: Inter Tight;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+
+  .footer-library .footer-container .footer-privacy-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+<<<<<<< HEAD
+   
+
+  /* Add your mobile-specific styles here */
+=======
+
+    /* Add your mobile-specific styles here */
+  }
+>>>>>>> main
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Add your tablet-specific styles here */
+<<<<<<< HEAD
+  .footer-library .footer-container { 
+gap: 212px;
+
+padding: 32px;
+
+  }
+
+
+
+
+=======
+  .footer-library .footer-container {
+    gap: 212px;
+
+    padding: 32px;
+  }
+>>>>>>> main
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  /* Add your desktop-specific styles here */
+ 
+}
