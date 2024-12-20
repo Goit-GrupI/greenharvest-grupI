@@ -48,11 +48,41 @@
 @media (min-width: 768px) and (max-width: 1279px) {
   /* Add your tablet-specific styles here */
   .your_order .container {
-    padding-block: 100px;
+    padding: 100px 64px;
     gap: 52px;
   }
+  .your_order .container .your-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
   .your_order .container .section-four-text-box {
-    margin-right: 329px;
+    margin-right: 32px;
+    margin-left: -32px;
+  }
+  .your_order .container .section-four-text-box .section-four-text {
+    font-family: Inter Tight;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -0.015em;
+  }
+  .your_order .container .your-content .your-content-order {
+    padding: 72px 100px;
+    gap: 52px;
+  }
+  .your_order .container .your-content .your-content-order .order-text {
+    font-family: Inter Tight;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+  }
+  .your_order .container .your-content .green-page {
+    padding: 52px;
+  }
+  .your_order .container .your-content .green-page .green-social-media {
+    margin-top: 52px;
   }
 }
 
@@ -74,8 +104,121 @@
     letter-spacing: -0.015em;
   }
 
-  .your_order .container .your_content {
+  .your_order .container .your-content {
     display: flex;
     gap: 32px;
   }
+  .your_order .container .your-content > div {
+    width: 50%;
+  }
+  .your_order .container .your-content .your-content-order {
+    padding: 52px 48px;
+  }
+
+  .your_order .container .your-content .your-content-order .order-text {
+    font-family: Inter Tight;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: black;
+  }
+  .your_order .container .your-content .green-page {
+    padding: 52px 48px;
+  }
+}
+
+.your_order .container .your-content .your-content-order {
+  background-color: #fbfbfb;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.your_order .container .your-content .green-page {
+  background-color: #7a3145;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.your_order .container .your-content .green-page .green-social-media {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.your_order
+  .container
+  .your-content
+  .green-page
+  .green-social-media
+  .green-social-media-text {
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #fbfbfb80;
+}
+
+.your_order
+  .container
+  .your-content
+  .green-page
+  .green-social-media
+  .green-social-media-link
+  .green-ul {
+  display: flex;
+  gap: 12px;
+  color: #fbfbfb;
+}
+
+.your_order .container .your-content .your-content-order .order-text .red {
+  color: rgb(122, 49, 69);
+}
+.your_order .container .your-content .your-content-order .order-text .green {
+  color: rgb(87, 111, 53);
+}
+
+.your_order .container .your-content .your-content-order .green-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.your_order
+  .container
+  .your-content
+  .your-content-order
+  .green-form
+  .input-order-form {
+  padding: 16px 14px;
+  border-radius: 30px;
+  border: 1px solid #858585;
+  color: black;
+}
+.your_order
+  .container
+  .your-content
+  .your-content-order
+  .green-form
+  .input-order-textarea {
+  height: 96px;
+  border-radius: 15px;
+}
+
+.your_order
+  .container
+  .your-content
+  .your-content-order
+  .green-form
+  .green-button {
+  background-color: #7a3145;
+  color: #fbfbfb;
+  text-align: center;
+  padding-block: 16px;
+  border-radius: 30px;
+  border: 0;
+  margin-top: 8px;
 }
