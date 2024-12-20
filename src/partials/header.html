@@ -29,14 +29,14 @@
           <div class="header-bar-left">
             <img
               class="header-logo"
-              src="../images/header/header-logo.svg"
+              src="./src/images/header/header-logo.svg"
               width="20px"
               height="20px"
               alt="Green Harvest logo"
             />
             <img
               class="header-title"
-              src="../images/header/header-title.svg"
+              src="./src/images/header/header-title.svg"
               width="20px"
               height="20px"
               alt="Green Harvest title"
@@ -52,12 +52,50 @@
           </nav>
           <div class="header-bar-right">
             <img
-              class="header-menu"
-              src="../images/header/header-menu.svg"
+              class="header-menu open-menu-bt"
+              src="./src/images/header/header-menu.svg"
               width="22px"
               height="16px"
               alt="Menu button"
             />
+          </div>
+        </div>
+        <!-- Açılır menü -->
+        <div class="open-menu-overlay is-open"></div>
+        <div class="modal-content is-open">
+          <svg
+            class="closeMenuBtn is-open"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M24 8L8 24"
+              stroke="#FBFBFB"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M8 8L24 24"
+              stroke="#FBFBFB"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <div class="menu-links-container is-open">
+            <div class="menu-links is-open">
+              <a class="menu-list-HIW is-open" href="#how-it-works"
+                >How It Works</a
+              >
+              <a class="menu-list-VEG is-open" href="#vegetables">Vegetables</a>
+              <a class="menu-list-REV is-open" href="#reviews">Reviews</a>
+            </div>
+            <a class="menu-shop-link is-open" href="#ShopNow">Shop NOW</a>
           </div>
         </div>
       </div>
