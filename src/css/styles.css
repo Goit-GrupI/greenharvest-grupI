@@ -23,6 +23,10 @@
   --second-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: var(--green);
+}
+
 /* Mobile styles */
 @media (max-width: 767px) {
   /* Add your mobile-specific styles here */

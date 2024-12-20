@@ -70,6 +70,7 @@
 /* Desktop styles */
 @media (min-width: 1280px) {
   .hero .container {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
