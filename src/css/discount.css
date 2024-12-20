@@ -1,15 +1,18 @@
-/* Mobile styles /
+/* Mobile styles */
 @media (max-width: 767px) {
-  / Add your mobile-specific styles here /
+
+  /* Add your mobile-specific styles here */
   .discount-container {
     padding: 80px 20px;
   }
+
   .discount-container .discount-container-text .discount-up-to {
     background-color: #576f35;
     padding-right: 16px;
     width: 100%;
     height: 102px;
   }
+
   .discount-container .discount-container-text {
     font-family: Inter Tight;
     font-size: 48px;
@@ -19,17 +22,20 @@
   }
 }
 
-/ Tablet styles /
+/* Tablet styles */
 @media (min-width: 768px) and (max-width: 1279px) {
-  / Add your tablet-specific styles here /
+
+  /* Add your tablet-specific styles here */
   .discount-container {
     padding: 100px 32px;
   }
+
   .discount-container .discount-container-text .discount-up-to {
     margin-top: -16px;
     padding-top: 16px;
     padding-right: 16px;
   }
+
   .discount-container .discount-container-text {
     font-family: Inter Tight;
     font-size: 64px;
@@ -39,9 +45,10 @@
   }
 }
 
-/ Desktop styles /
+/* Desktop styles */
 @media (min-width: 1280px) {
-  / Add your desktop-specific styles here /
+
+  /* Add your desktop-specific styles here */
   .discount-container {
     padding: 100px;
   }
@@ -61,7 +68,7 @@
   }
 }
 
-/ Discount bölümü */
+/* Discount bölümü */
 .discount {
   background-color: white;
 }
