@@ -1,248 +1,216 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GREEN.HARVEST - Vegetables</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css?family=Inter+Tight:500,600,700"
-      rel="stylesheet"
-    />
-    <style>
-      body {
-        background-color: green;
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <section class="vegetables">
-        <div class="container">
-          <h2 class="vegetable-title">
-            organic <span class="title-part">vegetables</span>
-          </h2>
-          <p class="vegetable-description">
-            Our organic vegetables are hand-picked from local farms and
-            delivered straight to your doorstep, ensuring that you get the
-            freshest and most nutritious produce possible.
-          </p>
-          <ul class="vegetable-cards-list">
-            <li class="vegetable-item">
-              <h3 class="vegetable-name">eggplant</h3>
-              <p class="vegetable-price">60 UAH / kg</p>
-              <div class="list-vegetable-img">
-                <picture class="vegetable-picture">
-                  <source
-                    srcset="
-                      ../images/vegetables/eggplant.webp   1x,
-                      ../images/vegetables/eggplant2x.webp 2x
-                    "
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="
-                      ../images/vegetables/eggplant.png   1x,
-                      ../images/vegetables/eggplant2x.png 2x
-                    "
-                  />
-                  <img src="../images/vegetables/eggplant.png" alt="Eggplant" />
-                </picture>
+<section class="vegetables">
+  <div class="container">
+    <h2 class="vegetable-headtitle">
+      organic <span class="headtitle-h2">vegetables</span>
+    </h2>
+    <p class="vegetable-read">
+      Our organic vegetables are hand-picked from local farms and delivered
+      straight to your doorstep, ensuring that you get the freshest and most
+      nutritious produce possible.
+    </p>
+    <ul class="vegetable-cards-list">
+      <li class="vegetable-item">
+        <h3 class="vegetable-name">eggplant</h3>
+        <p class="vegetable-price">60 UAH / kg</p>
+        <div class="list-vegetable-img">
+          <picture class="vegetable-picture">
+            <source
+              srcset="
+                ./src/images/vegetables/eggplant.webp   1x,
+                ./src/images/vegetables/eggplant2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                ./src/images/vegetables/eggplant.png   1x,
+                ./src/images/vegetables/eggplant2x.png 2x
+              "
+            />
+            <img src="./src/images/vegetables/eggplant.png" alt="Eggplant" />
+          </picture>
 
-                <ul class="text-veg-hidden">
-                  <li>calories: 20</li>
-                  <li>carbs: 5 grams</li>
-                  <li>fiber: 3 grams</li>
-                  <li>manganese: 10% of the RDI</li>
-                  <li>folate: 5% of the RDI</li>
-                  <li>potassium: 5% of the RDI</li>
-                  <li>vitamin K: 4% of the RDI</li>
-                  <li>vitamin C: 3% of the RDI</li>
-                </ul>
-              </div>
-            </li>
-            <li class="vegetable-item">
-              <h3 class="vegetable-name">leek</h3>
-              <p class="vegetable-price">60 UAH / kg</p>
-              <div class="list-vegetable-img">
-                <picture class="vegetable-picture">
-                  <source
-                    srcset="
-                      ../images/vegetables/leek.webp   1x,
-                      ../images/vegetables/leek2x.webp 2x
-                    "
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="
-                      ../images/vegetables/leek.png   1x,
-                      ../images/vegetables/leek2x.png 2x
-                    "
-                  />
-                  <img src="../images/vegetables/leek.png" alt="Leek" />
-                </picture>
-
-                <ul class="text-veg-hidden">
-                  <li>calories: 61</li>
-                  <li>omega-3: 0.10 g</li>
-                  <li>protein: 1.50 g</li>
-                  <li>fiber: 1.80 g</li>
-                  <li>sugars: 3.90</li>
-                  <li>monounsaturated: 0.01 g</li>
-                  <li>polyunsaturated: 0.17 g</li>
-                  <li>omega-6: 0.07 g</li>
-                </ul>
-              </div>
-            </li>
-
-            <li class="vegetable-item">
-              <h3 class="vegetable-name">mushrooms</h3>
-              <p class="vegetable-price">60 UAH / kg</p>
-              <div class="list-vegetable-img">
-                <picture class="vegetable-picture">
-                  <source
-                    srcset="
-                      ../images/vegetables/mushrooms.webp   1x,
-                      ../images/vegetables/mushrooms2x.webp 2x
-                    "
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="
-                      ../images/vegetables/mushrooms.png   1x,
-                      ../images/vegetables/mushrooms2x.png 2x
-                    "
-                  />
-                  <img
-                    src="../images/vegetables/mushrooms.png"
-                    alt="Mushrooms"
-                  />
-                </picture>
-
-                <ul class="text-veg-hidden">
-                  <li>calories: 15</li>
-                  <li>carbs: 2 grams</li>
-                  <li>fiber: 3 grams</li>
-                  <li>sugar: 1 gram</li>
-                  <li>protein: 2 grams</li>
-                  <li>selenium: 12% of the DV</li>
-                  <li>phosphorus: 5% of the DV</li>
-                  <li>vitamin B3, or niacin: 16% of the DV</li>
-                </ul>
-              </div>
-            </li>
-            <li class="vegetable-item">
-              <h3 class="vegetable-name">corn</h3>
-              <p class="vegetable-price">60 UAH / kg</p>
-              <div class="list-vegetable-img">
-                <picture class="vegetable-picture">
-                  <source
-                    srcset="
-                      ../images/vegetables/corn.webp   1x,
-                      ../images/vegetables/corn2x.webp 2x
-                    "
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="
-                      ../images/vegetables/corn.png   1x,
-                      ../images/vegetables/corn2x.png 2x
-                    "
-                  />
-                  <img src="../images/vegetables/corn.png" alt="Corn" />
-                </picture>
-
-                <ul class="text-veg-hidden">
-                  <li>calories: 77</li>
-                  <li>carbohydrates: 17.1 grams</li>
-                  <li>dietary fiber: 2.4 gramss</li>
-                  <li>sugars: 2.9 grams</li>
-                  <li>protein: 2.9 grams</li>
-                  <li>vitamins A, B, C</li>
-                  <li>potassium</li>
-                  <li>magnesium</li>
-                </ul>
-              </div>
-            </li>
-            <li class="vegetable-item">
-              <h3 class="vegetable-name">sweet potatoes</h3>
-              <p class="vegetable-price">60 UAH / kg</p>
-              <div class="list-vegetable-img">
-                <picture class="vegetable-picture">
-                  <source
-                    srcset="
-                      ../images/vegetables/sweet_potatoes.webp   1x,
-                      ../images/vegetables/sweet_potatoes2x.webp 2x
-                    "
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="
-                      ../images/vegetables/sweet_potatoes.png   1x,
-                      ../images/vegetables/sweet_potatoes2x.png 2x
-                    "
-                  />
-                  <img
-                    src="../images/vegetables/sweet_potatoes.png"
-                    alt="Sweet_potatoes"
-                  />
-                </picture>
-
-                <ul class="text-veg-hidden">
-                  <li>calories: 180</li>
-                  <li>carbs: 41 g</li>
-                  <li>protein: 4 g</li>
-                  <li>fat: 0.3 g</li>
-                  <li>fiber: 6.6 g</li>
-                  <li>vitamin C: 44% of the DV</li>
-                  <li>pantothenic acid: 35% of the DV</li>
-                  <li>potassium: 20% of the DV</li>
-                </ul>
-              </div>
-            </li>
-            <li class="vegetable-item">
-              <h3 class="vegetable-name">carrot</h3>
-              <p class="vegetable-price">60 UAH / kg</p>
-              <div class="list-vegetable-img">
-                <picture class="vegetable-picture">
-                  <source
-                    srcset="
-                      ../images/vegetables/carrot.webp   1x,
-                      ../images/vegetables/carrot2x.webp 2x
-                    "
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="
-                      ../images/vegetables/carrot.png   1x,
-                      ../images/vegetables/carrot2x.png 2x
-                    "
-                  />
-                  <img src="../images/vegetables/carrot.png" alt="Сarrot" />
-                </picture>
-
-                <ul class="text-veg-hidden">
-                  <li>calories: 94</li>
-                  <li>protein: 2 grams</li>
-                  <li>fat: less than 1 gram</li>
-                  <li>vitamin C: 22% of the DV</li>
-                  <li>vitamin K: 31% of the DV</li>
-                  <li>potassium: 15% of the DV</li>
-                  <li>sugars: 9 grams</li>
-                  <li>carbs: 22 grams</li>
-                </ul>
-              </div>
-            </li>
+          <ul class="text-hidden-open">
+            <li>calories: 20</li>
+            <li>carbs: 5 grams</li>
+            <li>fiber: 3 grams</li>
+            <li>manganese: 10% of the RDI</li>
+            <li>folate: 5% of the RDI</li>
+            <li>potassium: 5% of the RDI</li>
+            <li>vitamin K: 4% of the RDI</li>
+            <li>vitamin C: 3% of the RDI</li>
           </ul>
         </div>
-      </section>
-    </main>
-  </body>
-</html>
+      </li>
+      <li class="vegetable-item">
+        <h3 class="vegetable-name">leek</h3>
+        <p class="vegetable-price">60 UAH / kg</p>
+        <div class="list-vegetable-img">
+          <picture class="vegetable-picture">
+            <source
+              srcset="
+                ./src/images/vegetables/leek.webp   1x,
+                ./src/images/vegetables/leek2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                ./src/images/vegetables/leek.png   1x,
+                ./src/images/vegetables/leek2x.png 2x
+              "
+            />
+            <img src="./src/images/vegetables/leek.png" alt="Leek" />
+          </picture>
+
+          <ul class="text-hidden-open">
+            <li>calories: 61</li>
+            <li>omega-3: 0.10 g</li>
+            <li>protein: 1.50 g</li>
+            <li>fiber: 1.80 g</li>
+            <li>sugars: 3.90</li>
+            <li>monounsaturated: 0.01 g</li>
+            <li>polyunsaturated: 0.17 g</li>
+            <li>omega-6: 0.07 g</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="vegetable-item">
+        <h3 class="vegetable-name">mushrooms</h3>
+        <p class="vegetable-price">60 UAH / kg</p>
+        <div class="list-vegetable-img">
+          <picture class="vegetable-picture">
+            <source
+              srcset="
+                ./src/images/vegetables/mushrooms.webp   1x,
+                ./src/images/vegetables/mushrooms2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                ./src/images/vegetables/mushrooms.png   1x,
+                ./src/images/vegetables/mushrooms2x.png 2x
+              "
+            />
+            <img src="./src/images/vegetables/mushrooms.png" alt="Mushrooms" />
+          </picture>
+
+          <ul class="text-hidden-open">
+            <li>calories: 15</li>
+            <li>carbs: 2 grams</li>
+            <li>fiber: 3 grams</li>
+            <li>sugar: 1 gram</li>
+            <li>protein: 2 grams</li>
+            <li>selenium: 12% of the DV</li>
+            <li>phosphorus: 5% of the DV</li>
+            <li>vitamin B3, or niacin: 16% of the DV</li>
+          </ul>
+        </div>
+      </li>
+      <li class="vegetable-item">
+        <h3 class="vegetable-name">corn</h3>
+        <p class="vegetable-price">60 UAH / kg</p>
+        <div class="list-vegetable-img">
+          <picture class="vegetable-picture">
+            <source
+              srcset="
+                ./src/images/vegetables/corn.webp   1x,
+                ./src/images/vegetables/corn2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                ./src/images/vegetables/corn.png   1x,
+                ./src/images/vegetables/corn2x.png 2x
+              "
+            />
+            <img src="./src/images/vegetables/corn.png" alt="Corn" />
+          </picture>
+
+          <ul class="text-hidden-open">
+            <li>calories: 77</li>
+            <li>carbohydrates: 17.1 grams</li>
+            <li>dietary fiber: 2.4 gramss</li>
+            <li>sugars: 2.9 grams</li>
+            <li>protein: 2.9 grams</li>
+            <li>vitamins A, B, C</li>
+            <li>potassium</li>
+            <li>magnesium</li>
+          </ul>
+        </div>
+      </li>
+      <li class="vegetable-item">
+        <h3 class="vegetable-name">sweet potatoes</h3>
+        <p class="vegetable-price">60 UAH / kg</p>
+        <div class="list-vegetable-img">
+          <picture class="vegetable-picture">
+            <source
+              srcset="
+                ./src/images/vegetables/sweet_potatoes.webp   1x,
+                ./src/images/vegetables/sweet_potatoes2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                ./src/images/vegetables/sweet_potatoes.png   1x,
+                ./src/images/vegetables/sweet_potatoes2x.png 2x
+              "
+            />
+            <img
+              src="./src/images/vegetables/sweet_potatoes.png"
+              alt="Sweet_potatoes"
+            />
+          </picture>
+
+          <ul class="text-hidden-open">
+            <li>calories: 180</li>
+            <li>carbs: 41 g</li>
+            <li>protein: 4 g</li>
+            <li>fat: 0.3 g</li>
+            <li>fiber: 6.6 g</li>
+            <li>vitamin C: 44% of the DV</li>
+            <li>pantothenic acid: 35% of the DV</li>
+            <li>potassium: 20% of the DV</li>
+          </ul>
+        </div>
+      </li>
+      <li class="vegetable-item">
+        <h3 class="vegetable-name">carrot</h3>
+        <p class="vegetable-price">60 UAH / kg</p>
+        <div class="list-vegetable-img">
+          <picture class="vegetable-picture">
+            <source
+              srcset="
+                ./src/images/vegetables/carrot.webp   1x,
+                ./src/images/vegetables/carrot2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                ./src/images/vegetables/carrot.png   1x,
+                ./src/images/vegetables/carrot2x.png 2x
+              "
+            />
+            <img src="./src/images/vegetables/carrot.png" alt="Сarrot" />
+          </picture>
+
+          <ul class="text-hidden-open">
+            <li>calories: 94</li>
+            <li>protein: 2 grams</li>
+            <li>fat: less than 1 gram</li>
+            <li>vitamin C: 22% of the DV</li>
+            <li>vitamin K: 31% of the DV</li>
+            <li>potassium: 15% of the DV</li>
+            <li>sugars: 9 grams</li>
+            <li>carbs: 22 grams</li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
