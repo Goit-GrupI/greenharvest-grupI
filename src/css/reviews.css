@@ -1,14 +1,134 @@
+.reviews {
+  background-color: #fbfbfb;
+}
+.reviews .container {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.reviews .container .title-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 553px;
+}
+
+.reviews .container .title-box .title {
+  font-family: Inter Tight;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  color: #141414;
+}
+.reviews .container .title-box .title .title-span {
+  color: #576f35;
+}
+
+.reviews .container .title-box .subTitle {
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.reviews .container .content .reviews-list {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+.reviews .container .content .reviews-list .reviews-item {
+  border: 1px solid #d4bfc4;
+  padding: 20px;
+  min-width: 344px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-radius: 24px;
+}
+.reviews .container .content .reviews-list .reviews-item .reviews-content {
+  text-align: center;
+}
+.reviews
+  .container
+  .content
+  .reviews-list
+  .reviews-item
+  .reviews-content
+  .name {
+  font-family: Inter Tight;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.reviews
+  .container
+  .content
+  .reviews-list
+  .reviews-item
+  .reviews-content
+  .details {
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #858585;
+}
+
 /* Mobile styles */
 @media (max-width: 767px) {
   /* Add your mobile-specific styles here */
+  .reviews .container {
+    padding: 80px 10px;
+    gap: 40px;
+  }
+  .reviews .container .title-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 335px;
+  }
+
+  .reviews .container .title-box .title {
+    font-family: Inter Tight;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -0.015em;
+  }
+
+  .reviews .container .title-box .subTitle {
+    font-family: Inter Tight;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .reviews .container .content .reviews-list {
+    overflow-x: auto;
+  }
 }
 
 /* Tablet styles */
 @media (min-width: 768px) and (max-width: 1279px) {
   /* Add your tablet-specific styles here */
+  .reviews .container {
+    padding: 100px 16px;
+  }
+
+  .reviews .container .content .reviews-list {
+    overflow-x: auto;
+  }
 }
 
 /* Desktop styles */
 @media (min-width: 1280px) {
   /* Add your desktop-specific styles here */
+  .reviews .container {
+    padding: 100px;
+  }
 }

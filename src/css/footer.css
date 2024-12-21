@@ -1,6 +1,6 @@
 .footer-library {
   background-color: #7a3145;
-  height: 392px;
+  height: 100%;
   color: white;
 }
 .footer-library .footer-container {
@@ -138,6 +138,19 @@
     font-weight: 600;
     line-height: 28px;
     letter-spacing: -0.015em;
+  }
+  .footer-library .footer-container .footer-privacy-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer-library .footer-container .footer-page-info .footer-nav,
+  .footer-library .footer-container .footer-page-info .adres-footer {
+    margin-top: 40px;
+    margin-right: 108px;
+    width: 215px;
   }
 
   .footer-library
