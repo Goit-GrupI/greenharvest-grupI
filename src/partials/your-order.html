@@ -61,11 +61,15 @@
                 <input
                   type="email"
                   name="user-email"
-                  class="input-order-form"
+                  class="inp input-order-form"
                   id="user-email"
+                  pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
                   placeholder="Email"
-                  required
                 />
+                <div class="input-validation">
+                  <p class="input-valid">Succes!</p>
+                  <p class="input-invalid">Invalid email, try again</p>
+                </div>
                 <textarea
                   type="user-comment"
                   id="user-comment"
