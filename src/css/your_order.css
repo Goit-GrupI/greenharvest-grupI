@@ -39,8 +39,39 @@
   .your_order .container .section-four-text-box {
     gap: 20px;
   }
+  .your_order .container .section-four-text-box .section-four-text {
+    font-family: Inter Tight;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -0.015em;
+  }
   .your_order .container .section-four-text-box .section-four-p {
     font-size: 14px;
+  }
+  .your_order .container .your-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .your_order .container .your-content .your-content-order {
+    padding: 40px 20px;
+    gap: 40px;
+  }
+  .your_order .container .your-content .your-content-order .order-text {
+    font-family: Inter Tight;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+  }
+
+  .your_order .container .your-content .green-page {
+    padding: 40px 20px;
+  }
+  .your_order .container .your-content .green-page .green-social-media {
+    margin-top: 20px;
   }
 }
 
@@ -83,6 +114,10 @@
   }
   .your_order .container .your-content .green-page .green-social-media {
     margin-top: 52px;
+  }
+  .your_order .container .your-content .green-page img {
+    height: 318px;
+    object-fit: fill;
   }
 }
 
@@ -197,7 +232,9 @@
   border-radius: 30px;
   border: 1px solid #858585;
   color: black;
+  outline: none;
 }
+
 .your_order
   .container
   .your-content
@@ -221,4 +258,40 @@
   border-radius: 30px;
   border: 0;
   margin-top: 8px;
+}
+
+/* стилізація інпута при не валідному значенні */
+.inp:not(:placeholder-shown):invalid {
+  border-color: red;
+}
+
+/* стилізація інпута при валідному значенні */
+.inp:not(:placeholder-shown):valid {
+  border-color: green;
+}
+
+.input-valid,
+.input-invalid {
+  font-size: 14px;
+  padding-left: 20px;
+  margin-top: 4px;
+  display: none;
+}
+
+.input-valid {
+  color: green;
+}
+
+.input-invalid {
+  color: red;
+}
+
+/* стилізація інформаційного текста при валідному значенні в інпуті */
+.inp:not(:placeholder-shown):valid + .input-valid {
+  display: block;
+}
+
+/* стилізація інформаційного текста при не валідному значенні в інпуті */
+.inp:not(:placeholder-shown):invalid + .input-invalid {
+  display: block;
 }
