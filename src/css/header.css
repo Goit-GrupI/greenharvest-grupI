@@ -240,11 +240,17 @@
     color: var(--white);
   }
 
-.menu-item:hover,
-.menu-item:focus {
-  color: #7a3145;
-  background-color: white;
-}
+  .nav-list-HIW:hover,
+  .nav-list-HIW:focus,
+  .nav-list-VEG:hover,
+  .nav-list-VEG:focus,
+  .nav-list-REV:hover,
+  .nav-list-REV:focus,
+  .header-shopnow:hover,
+  .header-shopnow:focus {
+    color: #7a3145;
+    background-color: white;
+  }
 
   .header-shopnow {
     display: flex;
@@ -264,6 +270,8 @@
     text-transform: uppercase;
     color: var(--white);
   }
+
+
 
   .header-bar-right {
     display: none;
