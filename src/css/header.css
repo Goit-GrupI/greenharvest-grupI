@@ -240,6 +240,12 @@
     color: var(--white);
   }
 
+.menu-item:hover,
+.menu-item:focus {
+  color: #7a3145;
+  background-color: white;
+}
+
   .header-shopnow {
     display: flex;
     justify-content: center;
